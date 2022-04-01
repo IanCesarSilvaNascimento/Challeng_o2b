@@ -11,7 +11,7 @@ Criando as imagens docker
 
 * **DataBase**
  
- Navegue pro diretório api e digite
+ Navegue pro diretório db e digite
  ```csharp
     docker build -t desafio-mysql-image .
  ```
@@ -45,7 +45,7 @@ Navegue pro diretório api e digite
  
  * **Web**
 
- Navegue pro diretório api e digite
+ Navegue pro diretório web e digite
  ```csharp
     docker build -t desafio-php-image .
  ```
@@ -53,13 +53,19 @@ Navegue pro diretório api e digite
  ```csharp
     docker run -dp 8888:80 -v ./web:/var/www/html --link desafio-node-container --name desafio-php-container desafio-php-image 
  ```
+ ## Como usar
+ 
+ * **Acesse a localhost:9001 no seu navegador para verificar o funcionamento da API-node**
+ * **Acesse a localhost:8888 no seu navegador para verificar o funcionamento da API-php**
+ 
 
+## Dockercompse
 
-# Como usar
-* Navegue para o desktop, abra o prompt de cmd e clone o repositório digitando `git clone <url>`
-* Abra na sua IDE e digite `dotnet restore` `dotnet clean` `dotnet run`
-
-
+Certifique-se de não haver nenhum outro container anterioermente citado.
+Navegue pro diretório raiz e digite.
+ ```csharp
+  docker-compose up -d
+ ```
 
 
 
