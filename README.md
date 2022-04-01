@@ -69,7 +69,7 @@ Utilizando o terminal Ubuntu WSL , crie as imagens docker a seguir:
 
 ![Captura de tela 2022-04-01 200001](https://user-images.githubusercontent.com/62857753/161352434-1fcf4038-68a7-4a9a-aa49-712f9e771eea.png)
 
- * **Acesse a localhost:8888 no seu navegador para verificar o funcionamento da API-php (Esta API consome a API-node e retorna e para uma tela html com os recursos do bootstrap**
+ * **Acesse a localhost:8888 no seu navegador para verificar o funcionamento da API-php (Esta API consome a API-node e retorna para uma tela html com os recursos do bootstrap**
 
 ![Captura de tela 2022-04-01 200127](https://user-images.githubusercontent.com/62857753/161352490-573e0bef-6b74-4db3-ab0a-4b0ebac04f81.png)
 
