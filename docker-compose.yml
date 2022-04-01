@@ -1,0 +1,31 @@
+version: "3.7"
+
+services:
+  api:
+    build: "./api"
+    container_name: desafio-node-container
+    ports:
+      - 9001:9001
+    volumes:
+      - ./api:/home/node/app
+    depends_on:
+      - db
+
+  db:
+    build: "./db"
+    container_name: desafio-mysql-container
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - ./db/data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+
+  web:
+    build: "./web"
+    container_name: desafio-php-container
+    volumes:
+      - ./web:/var/www/html
+    ports:
+      - 8888:80
+    depends_on:
+      - api

@@ -1,0 +1,22 @@
+{
+  "name": "desafio-global",
+  "version": "1.0.0",
+  "description": "desafio global o2b/unimble",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon ./src/index"
+  },
+  "keywords": [
+    "docker"
+  ],
+  "author": "Ian Nascimento",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
+  }
+}
