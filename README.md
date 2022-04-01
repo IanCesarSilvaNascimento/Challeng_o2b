@@ -12,7 +12,8 @@ Projeto desenvolvido como solução para o desafio global proposto pela O2B no t
 Utilizando o terminal Ubuntu WSL , crie as imagens docker a seguir:
 
 * **DATABASE:** 
- 1)Navegue pro diretório db e digite
+
+1)Navegue pro diretório db e digite
  ```csharp
     docker build -t <name-mysql-image> .
  ```
@@ -34,7 +35,7 @@ Utilizando o terminal Ubuntu WSL , crie as imagens docker a seguir:
  ```
   6)Informe a senha:
  ```csharp
-    secret
+    <password>
  ```
  * **você deverá ver o resultado dos comandos escritos no script.sql**
  
