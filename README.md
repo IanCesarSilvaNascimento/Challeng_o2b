@@ -45,7 +45,7 @@ Utilizando o terminal Ubuntu WSL , crie as imagens docker a seguir:
 
 * **Api**
 
-Neste contexto a API consome os dados do banco e retorna uma lista de objetos em uma rota determinada. Se você precisar fazer manipular dados, acesse novamente o banco pelo container em execução e utilize comandos sql.
+Neste contexto a API consome os dados do banco e retorna uma lista de objetos em uma rota determinada. Se você precisar manipular dados, acesse novamente o banco pelo container em execução e utilize comandos sql.
 
 1)Navegue pro diretório api e digite
  ```csharp
