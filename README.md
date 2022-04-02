@@ -27,7 +27,7 @@ Utilizando o terminal Ubuntu WSL , crie as imagens docker a seguir:
  ``` 
   4)Acesse o banco pelo container em execução.
  ```csharp
-    $docker exec -it <name-mysql-container> /bin/bash 
+    docker exec -it <name-mysql-container> /bin/bash 
  ```
   5)Digite mysql -u root -p 
  ```csharp
