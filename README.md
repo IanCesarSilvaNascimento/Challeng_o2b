@@ -45,6 +45,8 @@ Utilizando o terminal Ubuntu WSL , crie as imagens docker a seguir:
 
 * **Api**
 
+Neste contexto a API consome os dados do banco e retorna uma lista de objetos em uma rota determinada. Se você precisar fazer manipular dados, acesse novamente o banco pelo container em execução e utilize comandos sql.
+
 1)Navegue pro diretório api e digite
  ```csharp
   docker build -t <name-node-image> .
@@ -55,6 +57,8 @@ Utilizando o terminal Ubuntu WSL , crie as imagens docker a seguir:
  ```
  
  * **Web**
+ 
+ Neste contexto a API consome os dados da API anterior, apresenta em uma nova rota e traduz para uma página html com tratamentos básicos do bootstrap.
 
  1)Navegue pro diretório web e digite
  ```csharp
