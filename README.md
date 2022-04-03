@@ -1,5 +1,5 @@
 # Challeng_o2b
-Projeto desenvolvido como solução para o desafio global proposto pela O2B no techcamp unimble/22.
+Projeto desenvolvido como solução para o desafio global(formulário) proposto pela O2B no techcamp unimble/22.
 
 # Como usar
 * **Ferramentas: Docker desktop e VScode**
